@@ -1,0 +1,46 @@
+body{
+  font-family: sans-serif;
+  flex: content;
+  
+}
+
+h1{
+  text-align: center;
+}
+  
+div{
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+footer{
+  position: sticky;
+  text-align: center;
+}
+
+.game{
+  padding: 15%;
+  border: 20%;
+  position: static;
+}
+
+#rock{
+  background-image: url(rock.jpg);
+}
+
+#paper{
+  background-color: whitesmoke;
+}
+
+#scissors{
+  background-color: aquamarine;
+}
+
+#startGame {
+  background-color: blueviolet;
+  margin-top: 20px;
+}
+
+.scoreBoard {
+  position: static;
+}
